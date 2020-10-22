@@ -1,0 +1,18 @@
+
+OrdererOrgs:
+  # ---------------------------------------------------------------------------
+  # Orderer
+  # ---------------------------------------------------------------------------
+  - Name: Orderer
+    Domain: fitcp.com
+    Template:
+      Count: 1
+  
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.fitcp.com
+    EnableNodeOUs: true    
+    Template:
+      Count: 3
+    Users:
+      Count: 1
